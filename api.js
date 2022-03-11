@@ -41,7 +41,6 @@ const getRandom = async function (req, res) {
 
 const create = async function (req, res) {
   const article = req.body;
-  console.log(req.body)
   const name = article.name;
   const price = article.price;
 
